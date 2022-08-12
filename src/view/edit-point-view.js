@@ -163,7 +163,7 @@ export default class PointEditView {
 
   getElement() {
     if (!this.element) {
-      this.element = createElement(this.getTemplate())
+      this.element = createElement(this.getTemplate());
     }
 
     return this.element;
