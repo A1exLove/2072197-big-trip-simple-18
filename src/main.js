@@ -1,7 +1,7 @@
 import FilterView from './view/filter-view';
 import { render } from './render';
 
-const siteMainElement = document.querySelector('.page-header');
-const siteHeaderElement = siteMainElement.querySelector('.trip-controls__filters');
+const headerElement = document.querySelector('.page-header');
+const siteHeaderElement = headerElement.querySelector('.trip-controls__filters');
 
 render(new FilterView(), siteHeaderElement);
