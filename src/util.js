@@ -35,6 +35,6 @@ const counter = () => {
   return () => count++;
 };
 
-const humanizeDate = () => dayjs().format();
+// const humanizeDate = () => dayjs().format();
 
 export {getRandomInteger, getRandomArrayElement, getNewArray, counter};
